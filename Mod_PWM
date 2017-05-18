@@ -1,0 +1,7 @@
+## These options configure PWM to 100Hz 50% D
+echo 0 > /sys/devices/ocp.3/pwm_test_P9_42.15/run
+echo 0 > /sys/devices/ocp.3/pwm_test_P9_42.15/polarity
+echo 10000000 > /sys/devices/ocp.3/pwm_test_P9_42.15/period
+echo 2500000 > /sys/devices/ocp.3/pwm_test_P9_42.15/duty
+echo 1 > /sys/devices/ocp.3/pwm_test_P9_42.15/run
+

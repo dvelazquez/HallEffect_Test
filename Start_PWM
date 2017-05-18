@@ -1,0 +1,9 @@
+## These options configure PWM to 100Hz 50% D
+echo am33xx_pwm > /sys/devices/bone_capemgr.9/slots
+echo bone_pwm_P9_42 > /sys/devices/bone_capemgr.9/slots
+echo 0 > /sys/devices/ocp.3/pwm_test_P9_42.15/run
+echo 1 > /sys/devices/ocp.3/pwm_test_P9_42.15/polarity
+echo 10000000 > /sys/devices/ocp.3/pwm_test_P9_42.15/period
+echo 5000000 > /sys/devices/ocp.3/pwm_test_P9_42.15/duty
+echo 1 > /sys/devices/ocp.3/pwm_test_P9_42.15/run
+
